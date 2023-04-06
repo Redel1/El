@@ -1,0 +1,160 @@
+.logo img{
+    height: 50px;
+    filter: invert(1);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5414aa;
+    font-family: 'Mulish', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+
+    
+}
+header li a,header li{
+    padding: 15px;
+    color: #fff;
+} 
+a{
+    text-decoration:none;
+    color:#4e4e4e;
+
+    text-decoration:none
+}
+nav{
+display: flex;
+justify-content: space-around;
+padding-left: 10px;
+position: relative;
+ 
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.hv{
+    display: flex;
+  
+}
+.nr ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    padding: 0px;
+}
+li{
+     padding: 10px;
+
+    
+}
+
+.nr{
+    display: flex;
+    
+}
+.card img{
+height: 200px;    
+}
+.card{
+    display: flex;
+    gap:15px;
+}
+.group {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    transition: .2s;
+    padding: 20px;
+}
+.group:hover{
+    box-shadow: 0 5px 14px rgb(0 0 0 / 11%), 0 2px 1px rgb(0 0 0 / 5%);
+}
+.news{
+
+}
+main{
+    display: flex;
+}
+.news li{
+    display:block;
+    background-color: rgb(92, 70, 70);
+    font-weight: 700;
+    box-shadow: 0 5px 14px rgb(0 0 0 / 11%);
+    cursor: pointer;
+    width: fit-content;
+    height: 20px;
+    user-select: none;
+    padding: 18px 12px;
+    margin: 0 4px 0 0;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1px;
+    background: rgba(66, 49, 49, 0.03);
+    justify-content: space-evenly;
+}
+.katalog{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    transition: .2s;
+    padding: 15px;
+}
+.katalog:hover{
+    box-shadow: 0 5px 14px rgb(0 0 0 / 11%), 0 2px 1px rgb(0 0 0 / 5%);
+}
+.news ul {
+    display: flex;
+}
+
+.logo {
+    padding: 5px 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+
+}
+
+input[type="text"] {
+    border: 1px solid rgba(255, 255, 255,0);
+    padding: 10px;
+    outline: none;
+}
+.b1{
+    background: #5414aa;
+    color: white;
+font-size: 9pt;
+}  
+
+.kom{
+    
+  
+}
+
+
+
+
+
+
+  
+
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+
